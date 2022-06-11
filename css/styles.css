@@ -1,0 +1,170 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+ 
+}
+
+/* Title Section */
+
+#title{
+    color: white;
+    background-color:#f9163a ;
+    text-align: left;
+}
+.container-fluid{
+padding:3% 15% 7%;
+}
+
+.Download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+.title-img{
+    width: 60%;
+    transform: rotate(24deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* headings */
+
+ h1,h2,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+/* Navigation Bar */
+
+.navbar{
+padding:0 0 4.5rem ;
+}
+
+.navbar-brand{
+    font-family: 'ubuntu'sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light', sans-serif; 
+}
+
+
+
+/* Features section  */
+
+#features{
+    z-index: 1;
+    position: relative;
+    background-color: #fff;
+    padding: 7% 15%;
+}
+.feature-box {
+    font-size: 1.5rem;
+}
+ p{
+    font-family: 'Montserrat-light', sans-serif; 
+    color: gray;
+    font-size: 1.3rem;
+
+}
+.icon{
+    color: #f9503a;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:#f9163a ;
+}
+.feature-text{
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+/* Tesmonial section */
+
+
+#testimonials{
+    background-color: #f9503a;
+    color: #fff;
+
+}
+.testmonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Priceing Section  */
+#press{
+    background-color: #f9503a;
+    padding-bottom: 3%;
+
+}
+.price-heading{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.press-logo{
+   
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    padding: 100px;
+}
+.pricing-col{
+    padding: 3% 2%;
+} 
+/* Download Section  */
+
+#cta{
+    background-color: #f9163a;
+    color: #fff;
+    padding: 7% 15%;
+    line-height: 1.5;
+
+}
+
+/* Footer Sectiobn */
+#footer{
+    color: grey;
+    font-size: 1.9rem;
+}
+.brand {
+    padding: 4% 11px;
+    font-size: 1.7rem;
+    color: #000;
+    line-height: 1.5;
+}
+
+/* responsive Design */
+
+@media(max-width: 1028px){
+     #title{
+         text-align: center;
+     }
+
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
